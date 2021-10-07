@@ -2,18 +2,21 @@
   <div id="app">
     <lpHeader/>
     <lp-main/>
+    <lp-footer/>
   </div>
 </template>
 
 <script>
-import lpHeader from './components/lpHeader.vue'
-import lpMain from './components/lpMain.vue'
+import lpHeader from './views/Header.vue'
+import lpMain from './views/main.vue'
+import lpFooter from './views/footer.vue'
 
 export default {
   name: 'App',
   components: {
     lpHeader,
-    lpMain
+    lpMain,
+    lpFooter
   }
 }
 </script>
@@ -31,10 +34,13 @@ html {
   --white: #ffff;
   --brown: #7D5A50;
   --brownLg: #7d5a50a8;
+  --coffe: #aa897fa2;
   --grey: #e6e6e6;
   --red: #FD6F96;
+  --redLg: #fd6f959f;
   --blue: #7fd4ff;
   --green: #71EFA3;
+  --greenLg: #71efa39c;
 }
 
 body {
