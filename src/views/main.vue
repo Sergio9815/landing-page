@@ -98,7 +98,7 @@ import lpButton from '@/components/lpButton.vue'
 import lpButtonP from '@/components/lpButtonP.vue'
 
 export default {
-  name: 'Main Data',
+  name: 'Main',
   data() {
     return {
       description: 'Sweets of all the colors and flavors you can imagine. Where you will find the greatest delights in the universe.',

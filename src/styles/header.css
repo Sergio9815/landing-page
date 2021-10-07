@@ -32,7 +32,7 @@ h3 {
   display: none;
 }
 
-.btn-nav--res {
+.fa-bars:before {
   color: var(--dark);
 }
 
