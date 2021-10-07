@@ -73,4 +73,16 @@ input {
   outline: none;
 }
 
+
+@media only screen and (max-width: 500px) {
+
+  .search[data-v-5173fec7] {
+    width: 100%;
+  }
+
+  #searchbar[data-v-5173fec7] {
+    width: 90%;
+  }
+
+}
 </style>

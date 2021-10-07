@@ -227,12 +227,8 @@ label {
     width: 100%;
   }
   
-  .search[data-v-5173fec7], textarea {
+  textarea {
     width: 100%;
-  }
-
-  #searchbar[data-v-5173fec7] {
-    width: 90%;
   }
 
   .btn-sub {
