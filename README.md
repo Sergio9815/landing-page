@@ -1,24 +1,3 @@
-# landing-page
+# Landing Page
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![preview](https://user-images.githubusercontent.com/37419848/136339713-f90f3571-1692-4c02-97ea-7f20900ceb65.png)
