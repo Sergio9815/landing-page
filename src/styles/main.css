@@ -44,6 +44,8 @@
 h1 {
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
+  line-height: 35px;
+  text-align: center;
 }
 
 .main--paragraph {
@@ -67,6 +69,7 @@ svg {
 }
 
 /* -------------------------------------------------------- */
+
 .products {
   display: flex;
   width: 90%;
@@ -112,14 +115,19 @@ figcaption {
 }
 
 /* -------------------------------------------------------- */
+
 .offers {
   background-color: var(--grey);
+}
+
+#offers-logo {
+  display: flex;
 }
 
 .offers--container {
   margin: auto;
   width: 90%;
-  height: 700px;
+  height: 710px;
   display: flex;
   flex-direction: column;
 }
@@ -211,4 +219,118 @@ a {
 .item-info {
   margin: 0;
   font-size: 15px;
+  font-family: 'Helvetica';
+}
+
+
+/* --- --- -- RESPONSIVE DESIGN -- --- --- */
+@media only screen and (max-width: 1230px) {
+  .products {
+    height: 250vh;
+  }
+  
+  .products--items {
+    flex-direction: column;
+  }
+  
+  .items-img {
+    width: 500px;
+    height: 400px;
+  }
+
+  figure {
+    border: none;
+}
+}
+
+@media only screen and (max-width: 1220px) {
+  svg {
+    width: 380px;
+    height: 450px;
+  }
+
+  #offers-logo svg {
+    width: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 1105px) {
+  #offers-logo svg {
+    display: none;
+  }
+
+  .container--options {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    flex-direction: column;
+    margin-top: 146px;
+    gap: 20px;
+  }
+
+  svg {
+    width: 90%;
+    height: 450px;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .main--paragraph {
+    width: 100%;
+}
+
+  .products {
+    height: 260vh;
+  }
+  
+  .items-img {
+    width: 90%;
+    height: 400px;
+  }  
+
+  .offers--container {
+    height: 650px;
+}
+
+  .item-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .item-info {
+    width: 90%;
+  }
+
+  .offers--container {
+    height: 586px;
+  }
+
+  .items-img {
+    height: 340px;
+  } 
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    width: 80%;
+  }
+
+  .item-logo {
+    display: none;
+  }
+
+  .item-info {
+      margin-left: 13px;
+  }
 }
