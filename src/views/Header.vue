@@ -18,7 +18,7 @@
       </section>
 
       <div class="btn-nav">
-        <a href="#"><i class="fas fa-bars"></i></a>
+        <a id="btn-nav--res" href="#"><i class="fas fa-bars"></i></a>
       </div>
     </nav>
 

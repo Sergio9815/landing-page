@@ -270,6 +270,7 @@ a {
     flex-direction: column;
     margin-top: 146px;
     gap: 20px;
+    height: 70vh;
   }
 
   svg {
@@ -283,12 +284,13 @@ a {
 
   .main--paragraph {
     width: 100%;
-}
+    margin-bottom: -65px;
+  }
 
   .products {
-    height: 260vh;
+    height: 215vh;
   }
-  
+
   .items-img {
     width: 90%;
     height: 400px;
@@ -309,7 +311,9 @@ a {
   }
 
   .offers--container {
-    height: 586px;
+    height: 550px;
+    padding-top: 0px;
+    padding-bottom: 40px;
   }
 
   .items-img {

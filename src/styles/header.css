@@ -32,6 +32,10 @@ h3 {
   display: none;
 }
 
+.btn-nav--res {
+  color: var(--dark);
+}
+
 .container-menu {
   display: flex;
   align-items: center;
@@ -61,6 +65,8 @@ h3 {
 .container-menu ul li a:hover {
   border-bottom: solid 3px var(--brownLg); 
 }
+
+
 
 @media only screen and (max-width: 900px) {
   .container-menu {
