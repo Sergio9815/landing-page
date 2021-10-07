@@ -87,7 +87,7 @@
   justify-content: space-around;
 }
 
-form {
+.data--form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +224,7 @@ label {
 @media only screen and (max-width: 500px) {
 
   .data--form {
-    width: 90%;
+    width: 100%;
   }
   
   .search[data-v-5173fec7], textarea {

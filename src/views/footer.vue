@@ -27,8 +27,6 @@
 
           <div class="data--form">
 
-            <form>
-
               <label for="fname"><i class="far fa-user"></i> First Name</label>
               <lp-Search-bar/>
               <label for="lname"><i class="far fa-envelope"></i> Your Email</label>
@@ -39,8 +37,6 @@
                 <a href="#" id="btn-submit" >Send</a>
                 <a href="#" id="btn-clear" >Clear</a>
               </div>
-
-            </form>
             
           </div>
 
