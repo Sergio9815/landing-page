@@ -197,7 +197,7 @@ label {
   }
 
   .contact {
-    height: 130vh;
+    height: 115vh;
   }
 
   #cont--p {
@@ -229,6 +229,10 @@ label {
   
   .search[data-v-5173fec7], textarea {
     width: 100%;
+  }
+
+  #searchbar[data-v-5173fec7] {
+    width: 90%;
   }
 
   .btn-sub {

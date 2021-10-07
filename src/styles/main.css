@@ -268,7 +268,7 @@ a {
 @media only screen and (max-width: 900px) {
   .main {
     flex-direction: column;
-    margin-top: 146px;
+    margin-top: 95px;
     gap: 20px;
     height: 70vh;
   }
@@ -288,7 +288,7 @@ a {
   }
 
   .products {
-    height: 215vh;
+    height: 200vh;
   }
 
   .items-img {
@@ -307,7 +307,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .item-info {
-    width: 90%;
+    width: 95%;
   }
 
   .offers--container {
