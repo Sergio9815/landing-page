@@ -34,7 +34,7 @@ button a i { font-size: 32px !IMPORTANT; }
 
 
 .search {
-	width: 450px;
+	width: 100%;
 	border: none;
 	border-radius: 5px;
 	transition: 0.15s;
@@ -58,7 +58,7 @@ button a i { font-size: 32px !IMPORTANT; }
 /* The searchbar */
 #searchbar
 {
-	width: 450px;
+	width: 90%;
 	background-color: transparent;
 	border: none;
 	border-radius: 5px;
@@ -73,16 +73,4 @@ input {
   outline: none;
 }
 
-
-@media only screen and (max-width: 500px) {
-
-  .search[data-v-5173fec7] {
-    width: 100%;
-  }
-
-  #searchbar[data-v-5173fec7] {
-    width: 90%;
-  }
-
-}
 </style>
