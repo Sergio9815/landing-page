@@ -31,14 +31,14 @@
 /* -------------------------------------------------------- */
 
 .main {
-  /* background-color: rosybrown; */
   width: 80%;
-  height: 550px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 80px;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 h1 {
@@ -71,28 +71,21 @@ svg {
 /* -------------------------------------------------------- */
 
 .products {
-  display: flex;
-  width: 90%;
-  height: 680px;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 25px;
+  background-color: var(--white);
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 35px;
+  padding-top: 30px;
 }
 
 .products--items {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  margin-top: -15px;
+  width: 100%;
 }
 
 figure {
@@ -127,13 +120,12 @@ figcaption {
 .offers--container {
   margin: auto;
   width: 90%;
-  height: 710px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 28px;
 }
 
 #off {
-  margin-top: 50px;
   align-self: flex-start;
   font-size: 35px;
 }
@@ -144,6 +136,7 @@ figcaption {
   margin: auto;
   align-items: center;
   justify-content: space-around;
+  margin-top: 70px;
 }
 
 .offers--items {
@@ -225,12 +218,10 @@ a {
 
 /* --- --- -- RESPONSIVE DESIGN -- --- --- */
 @media only screen and (max-width: 1230px) {
-  .products {
-    height: 250vh;
-  }
-  
+
   .products--items {
     flex-direction: column;
+    margin-top: 60px;
   }
   
   .items-img {
@@ -240,7 +231,7 @@ a {
 
   figure {
     border: none;
-}
+  }
 }
 
 @media only screen and (max-width: 1220px) {
@@ -268,9 +259,10 @@ a {
 @media only screen and (max-width: 900px) {
   .main {
     flex-direction: column;
-    margin-top: 95px;
+    margin-top: 30px;
     gap: 20px;
-    height: 70vh;
+    height: 102vh;
+    margin-bottom: 15px;
   }
 
   svg {
@@ -287,54 +279,25 @@ a {
     margin-bottom: -65px;
   }
 
-  .products {
-    height: 200vh;
-  }
-
   .items-img {
-    width: 90%;
+    width: 75%;
     height: 400px;
   }  
 
-  .offers--container {
-    height: 650px;
-}
-
-  .item-info {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
   .item-info {
     width: 95%;
   }
 
-  .offers--container {
-    height: 550px;
-    padding-top: 0px;
-    padding-bottom: 40px;
+  .offers--items {
+    margin-top: -60px;
   }
 
-  .items-img {
-    height: 340px;
-  } 
-}
-
-@media only screen and (max-width: 400px) {
-  h1 {
-    font-size: 30px;
+  #off {
+    margin: auto;
   }
 
-  p {
-    width: 80%;
-  }
-
-  .item-logo {
-    display: none;
-  }
-
-  .item-info {
-      margin-left: 13px;
+  #prod {
+    width: 90%;
+    margin: auto;
   }
 }

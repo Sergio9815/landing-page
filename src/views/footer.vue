@@ -19,7 +19,7 @@
     <article class="contact">
 
         <div id="cont">
-          <h2>Contact Us</h2>
+          <h2 id="cont-t">Contact Us</h2>
           <p id="cont--p">Leave us a message, a comment, or just let us know what you think of your experience with our services.</p>
         </div>
         
