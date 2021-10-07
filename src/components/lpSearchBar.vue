@@ -1,7 +1,7 @@
 <template>
     <div class="search">
         <!-- The search bar -->
-        <input autofocus id="searchbar" placeholder="Type your data. . ." autocomplete="off">
+        <input id="searchbar" placeholder="Type your data. . ." autocomplete="off">
         <button type="button" id="btnS" class="btn-search"><i class="fas fa-search"></i></button>
     </div>
 </template>
